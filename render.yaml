@@ -4,6 +4,7 @@ services:
     name: github-agent
     env: docker
     autoDeploy: false
+    startCommand: "./run.sh"
     disk:
       name: data
       mountPath: /data
